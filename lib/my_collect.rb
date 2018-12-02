@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 def my_collect(collection)
@@ -17,3 +18,14 @@ end
 
  end
 # Having issues with learn submit
+=======
+def my_collect(array)
+  i = 0
+  collect = []
+  while i < array.length
+    collect << yield(array[i])
+    i+=1
+  end
+  collect
+end
+>>>>>>> a4cbf478be282d52fe79351ae7a67c207ccfeceb
